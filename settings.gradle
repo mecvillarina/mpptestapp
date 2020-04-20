@@ -1,0 +1,3 @@
+rootProject.name='MPPTestApp'
+include ':app'
+include ':SharedCode'
