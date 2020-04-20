@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEB459A244D9E4400CCB49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB4599244D9E4400CCB49D /* AppDelegate.swift */; };
+		5DEB459C244D9E4400CCB49D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB459B244D9E4400CCB49D /* SceneDelegate.swift */; };
+		5DEB459E244D9E4400CCB49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB459D244D9E4400CCB49D /* ViewController.swift */; };
+		5DEB45A1244D9E4400CCB49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB459F244D9E4400CCB49D /* Main.storyboard */; };
+		5DEB45A4244D9E4400CCB49D /* KotlinIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB45A2244D9E4400CCB49D /* KotlinIOS.xcdatamodeld */; };
+		5DEB45A6244D9E4500CCB49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB45A5244D9E4500CCB49D /* Assets.xcassets */; };
+		5DEB45A9244D9E4500CCB49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB45A7244D9E4500CCB49D /* LaunchScreen.storyboard */; };
+		5DEB45B6244DA45200CCB49D /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEB45B2244DA37E00CCB49D /* SharedCode.framework */; };
+		5DEB45B7244DA45200CCB49D /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEB45B2244DA37E00CCB49D /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DEB45B8244DA45200CCB49D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5DEB45B7244DA45200CCB49D /* SharedCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5DEB4596244D9E4400CCB49D /* KotlinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEB4599244D9E4400CCB49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DEB459B244D9E4400CCB49D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DEB459D244D9E4400CCB49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DEB45A0244D9E4400CCB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DEB45A3244D9E4400CCB49D /* KotlinIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KotlinIOS.xcdatamodel; sourceTree = "<group>"; };
+		5DEB45A5244D9E4500CCB49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DEB45A8244D9E4500CCB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DEB45AA244D9E4500CCB49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEB45B1244DA35D00CCB49D /* SharedCode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SharedCode; path = ../../SharedCode; sourceTree = "<group>"; };
+		5DEB45B2244DA37E00CCB49D /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DEB4593244D9E4400CCB49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB45B6244DA45200CCB49D /* SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DEB458D244D9E4400CCB49D = {
+			isa = PBXGroup;
+			children = (
+				5DEB4598244D9E4400CCB49D /* KotlinIOS */,
+				5DEB4597244D9E4400CCB49D /* Products */,
+				5DEB45B0244DA35D00CCB49D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DEB4597244D9E4400CCB49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB4596244D9E4400CCB49D /* KotlinIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DEB4598244D9E4400CCB49D /* KotlinIOS */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB4599244D9E4400CCB49D /* AppDelegate.swift */,
+				5DEB459B244D9E4400CCB49D /* SceneDelegate.swift */,
+				5DEB459D244D9E4400CCB49D /* ViewController.swift */,
+				5DEB459F244D9E4400CCB49D /* Main.storyboard */,
+				5DEB45A5244D9E4500CCB49D /* Assets.xcassets */,
+				5DEB45A7244D9E4500CCB49D /* LaunchScreen.storyboard */,
+				5DEB45AA244D9E4500CCB49D /* Info.plist */,
+				5DEB45A2244D9E4400CCB49D /* KotlinIOS.xcdatamodeld */,
+			);
+			path = KotlinIOS;
+			sourceTree = "<group>";
+		};
+		5DEB45B0244DA35D00CCB49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB45B2244DA37E00CCB49D /* SharedCode.framework */,
+				5DEB45B1244DA35D00CCB49D /* SharedCode */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DEB4595244D9E4400CCB49D /* KotlinIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEB45AD244D9E4500CCB49D /* Build configuration list for PBXNativeTarget "KotlinIOS" */;
+			buildPhases = (
+				5DEB45B9244DA51D00CCB49D /* ShellScript */,
+				5DEB4592244D9E4400CCB49D /* Sources */,
+				5DEB4593244D9E4400CCB49D /* Frameworks */,
+				5DEB4594244D9E4400CCB49D /* Resources */,
+				5DEB45B8244DA45200CCB49D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinIOS;
+			productName = KotlinIOS;
+			productReference = 5DEB4596244D9E4400CCB49D /* KotlinIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DEB458E244D9E4400CCB49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mark Erwin";
+				TargetAttributes = {
+					5DEB4595244D9E4400CCB49D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DEB4591244D9E4400CCB49D /* Build configuration list for PBXProject "KotlinIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DEB458D244D9E4400CCB49D;
+			productRefGroup = 5DEB4597244D9E4400CCB49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DEB4595244D9E4400CCB49D /* KotlinIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DEB4594244D9E4400CCB49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB45A9244D9E4500CCB49D /* LaunchScreen.storyboard in Resources */,
+				5DEB45A6244D9E4500CCB49D /* Assets.xcassets in Resources */,
+				5DEB45A1244D9E4400CCB49D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DEB45B9244DA51D00CCB49D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\ncd $SRCROOT/../../SharedCode/build/xcode-frameworks\n./gradlew :SharedCode:packForXCode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEB4592244D9E4400CCB49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB459E244D9E4400CCB49D /* ViewController.swift in Sources */,
+				5DEB459A244D9E4400CCB49D /* AppDelegate.swift in Sources */,
+				5DEB45A4244D9E4400CCB49D /* KotlinIOS.xcdatamodeld in Sources */,
+				5DEB459C244D9E4400CCB49D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DEB459F244D9E4400CCB49D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEB45A0244D9E4400CCB49D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DEB45A7244D9E4500CCB49D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEB45A8244D9E4500CCB49D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DEB45AB244D9E4500CCB49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DEB45AC244D9E4500CCB49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DEB45AE244D9E4500CCB49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PQW7HVKMF;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../..SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = KotlinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mpptestapp.KotlinIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DEB45AF244D9E4500CCB49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PQW7HVKMF;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../..SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = KotlinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mpptestapp.KotlinIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DEB4591244D9E4400CCB49D /* Build configuration list for PBXProject "KotlinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEB45AB244D9E4500CCB49D /* Debug */,
+				5DEB45AC244D9E4500CCB49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEB45AD244D9E4500CCB49D /* Build configuration list for PBXNativeTarget "KotlinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEB45AE244D9E4500CCB49D /* Debug */,
+				5DEB45AF244D9E4500CCB49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DEB45A2244D9E4400CCB49D /* KotlinIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DEB45A3244D9E4400CCB49D /* KotlinIOS.xcdatamodel */,
+			);
+			currentVersion = 5DEB45A3244D9E4400CCB49D /* KotlinIOS.xcdatamodel */;
+			path = KotlinIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DEB458E244D9E4400CCB49D /* Project object */;
+}
